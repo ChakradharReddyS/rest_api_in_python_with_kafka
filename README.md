@@ -13,3 +13,15 @@ Developed a REST API for E-Commerce application that is used for data transfer f
 ```bash
 sudo apt install python3.10-env
 ```
+
+3) Open the above folder in VSCode and create a python virtual environment
+
+```bash
+python3 -m venv .venv
+```
+
+4) Kill and restart the terminal. Navigate to the code directory and enter below command to enter python  virtual environment
+
+```bash
+source .venv/bin/activate
+```
