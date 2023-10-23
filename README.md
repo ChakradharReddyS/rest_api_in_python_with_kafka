@@ -46,10 +46,10 @@ import random
 import time
 ```
 
-> **threading**  - To implement multithreading in driver class
-> **requests**  -  for making HTTP requests
-> **random**    - Provides function to simulate event generation
-> **time**         - takes snapshots of system clocks. Used for measuring the response time
+> **threading**   -  To implement multithreading in driver class, 
+> **requests**    -  for making HTTP requests, 
+> **random**      -  Provides function to simulate event generation, 
+> **time**        -  takes snapshots of system clocks. Used for measuring the response time, 
 
 4) Generate events using the **random.choices()** function as below
 
