@@ -62,7 +62,7 @@ def generate_event(user_id):
     return {"timestamp": time.time(), "user_id": user_id, "event_type": event_type, "city": city}
 ```
 
-In the above code, random.choices(EVENT_TYPES,EVENT_PROBABILITIES)[0] is used to randomly select an event type from the list of EVENT_TYPES based on the given probabilities in EVENT_PROBABILITIES. The event_probabilities here account for user behaviour
+> In the above code, random.choices(EVENT_TYPES,EVENT_PROBABILITIES)[0] is used to randomly select an event type from the list of EVENT_TYPES based on the given probabilities in >EVENT_PROBABILITIES. The event_probabilities here account for user behaviour
 
 
 # WebHook
